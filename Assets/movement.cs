@@ -6,6 +6,9 @@ public class movement : MonoBehaviour
 {
     public Rigidbody rb;
 
+    Animator anim; 
+
+
     public float upForce = 100;
     public float speed = 1500;
     public float runSpeed = 2500;
